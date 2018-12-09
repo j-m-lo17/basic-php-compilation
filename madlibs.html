@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/anime-master/anime.min.js"></script>
+<script src="scripts/asg.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/asg6.css">
+<title>MADLIBS</title>
+</head>
+<body>
+<div class="pseudobg" id="madlibbg"></div>
+<header>
+	<nav>
+		<ul>
+			<a href="madlibs.html" id="navmadlib"><li>MADLIBS</li></a>
+			<a href="calc.html" id="navcalc"><li>CALCULATOR</li></a>
+			<a href="store.html" id="navstore"><li>STORE FORM</li></a>
+			<a href="quiz.html" id="navquiz"><li>QUIZ TIME</li></a>
+		</ul>
+	</nav>
+</header>
+<div class="sidetitle"><p id="sidetitletext">ASSIGNMENT 6</p></div>
+<h1 class="maintitle", id="madlibtitle">MADLIBS!</h1>
+<div class="formcontainer">
+	<form action="madlibs.php" method="post">
+		<h2 class="subtitle">~madlibs program~</h2>
+		Enter an adjective:<br><input type="text" name="firstadj" placeholder="Whatever u want"><br>
+		Enter another adjective:<br><input type="text" name="anotheradj" placeholder="???"><br>
+		Enter a noun:<br><input type="text" name="noun" placeholder="SFW please"><br>
+		Enter a verb:<br><input type="text" name="verb"placeholder="Past tense"><br>
+		Enter another noun:<br><input type="text" name="anothernoun" placeholder="Must be singular"><br>
+		Enter a number:<br><input type="text" name="num"placeholder="> 1"><br>
+		Enter a second verb:<br><input type="text" name="secondverb" placeholder="Present tense"><br>
+		Enter a third noun:<br><input type="text" name="thirdnoun" placeholder="Must be plural"><br>
+	<br><input type="submit" value="Initiate MADLIBS">
+</form>
+</div>
+</body>
+</html>
+

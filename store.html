@@ -1,0 +1,37 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/anime-master/anime.min.js"></script>
+<script src="scripts/asg.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/asg6.css">
+<title>Calculator</title>
+</head>
+<body>
+<div class="pseudobg" id="storebg"></div>
+<header>
+	<nav>
+		<ul>
+			<a href="madlibs.html" id="navmadlib"><li>MADLIBS</li></a>
+			<a href="calc.html" id="navcalc"><li>CALCULATOR</li></a>
+			<a href="store.html" id="navstore"><li>STORE FORM</li></a>
+			<a href="quiz.html" id="navquiz"><li>QUIZ TIME</li></a>
+		</ul>
+	</nav>
+</header>
+<div class="sidetitle"><p id="sidetitletext">ASSIGNMENT 6</p></div>
+<h1 class="maintitle", id="storetitle">PHP ONLINE STORE</h1>
+<div class="formcontainer">
+	<form action="online.php" method="post">
+		<h2 class="subtitle">~online store form~</h2>
+		Enter your name:<br><input type="text" name="name"><br>
+		Enter your email:<br><input type="text" name="email"><br>
+		Select an item:<br><select name="products" size="2"><br>
+			<option value="IKEA Mattress (queen)">IKEA Queen Mattress($199.99)</option>
+			<option value="Rice">Sack of jasmine rice($14.99)</option>
+		</select><br><br>
+		How many?<br><input type="number" name="quantity" min="1"><br>
+	<br><input type="submit" value="Check out">
+</form>
+</div>
+</body>
+</html>

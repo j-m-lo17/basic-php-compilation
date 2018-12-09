@@ -1,0 +1,86 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/anime-master/anime.min.js"></script>
+<script src="scripts/asg.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/asg6.css">
+<title>Calculator</title>
+</head>
+<body>
+<div class="pseudobg" id="quizbg"></div>
+<header>
+	<nav>
+		<ul>
+			<a href="madlibs.html" id="navmadlib"><li>MADLIBS</li></a>
+			<a href="calc.html" id="navcalc"><li>CALCULATOR</li></a>
+			<a href="store.html" id="navstore"><li>STORE FORM</li></a>
+			<a href="quiz.html" id="navquiz"><li>QUIZ TIME</li></a>
+		</ul>
+	</nav>
+</header>
+<div class="sidetitle"><p id="sidetitletext">ASSIGNMENT 6</p></div>
+<h1 class="maintitle", id="quiztitle">QUIZ PROGRAM</h1>
+<div class="formcontainer" id="quizcontainer">
+	<form action="quiz.php" method="post">
+		<h2 class="subtitle">~quiz time~</h2>
+		Enter your first name:<br><input type="text" name="fname"><br>
+		Enter your last name:<br><input type="text" name="lname"><br>
+		<fieldset>
+			<legend>U.S. History Quiz</legend>
+		<p>What is the capital of New Jersey?</p><br>
+		 <div class="radioselect">
+ 		 <input type="radio"  name="q1" value="Trenton">
+  		 <label for="q1">Trenton</label>
+  		 </div>
+  		  <div id="radioselect">
+ 		 <input type="radio"  name="q1" value="Newark">
+  		 <label for="q1">Newark</label>
+  		 </div>
+  		 <div id="radioselect">
+ 		 <input type="radio"  name="q1" value="Jersey City">
+  		 <label for="q1">Jersey City</label>
+  		 </div>
+  		 <div id="radioselect">
+ 		 <input type="radio"  name="q1" value="Garden State">
+  		 <label for="q1">Garden State</label>
+  		 </div><br>
+  		 <p>When was the declaration of Independence Signed?</p><br>
+		 <div class="radioselect">
+ 		 <input type="radio"  name="q2" value="1774">
+  		 <label for="q2">1774</label>
+  		 </div>
+  		  <div id="radioselect">
+ 		 <input type="radio"  name="q2" value="1776">
+  		 <label for="q2">1776</label>
+  		 </div>
+  		 <div id="radioselect">
+ 		 <input type="radio"  name="q2" value="1766">
+  		 <label for="q2">1766</label>
+  		 </div>
+  		 <div id="radioselect">
+ 		 <input type="radio"  name="q2" value="1756">
+  		 <label for="q2">1756</label>
+  		 </div><br>
+  		 <p>Who invented KFC?</p><br>
+		 <div class="radioselect">
+ 		 <input type="radio"  name="q3" value="George Washington">
+  		 <label for="q3">George Washington</label>
+  		 </div>
+  		  <div id="radioselect">
+ 		 <input type="radio"  name="q3" value="Paul Revere">
+  		 <label for="q3">Paul Revere</label>
+  		 </div>
+  		 <div id="radioselect">
+ 		 <input type="radio"  name="q3" value="Colonel Sanders">
+  		 <label for="q3">Colonel Sanders</label>
+  		 </div>
+  		 <div id="radioselect">
+ 		 <input type="radio"  name="q3" value="Kanye West">
+  		 <label for="q3">Kanye West</label>
+  		 </div>
+  		</fieldset>
+	<br><input type="submit" value="Check answers">
+</form>
+</div>
+</body>
+</html>

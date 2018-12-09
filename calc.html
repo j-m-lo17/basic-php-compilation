@@ -1,0 +1,38 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/anime-master/anime.min.js"></script>
+<script src="scripts/asg.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/asg6.css">
+<title>Calculator</title>
+</head>
+<body>
+<div class="pseudobg" id="calcbg"></div>
+<header>
+	<nav>
+		<ul>
+			<a href="madlibs.html" id="navmadlib"><li>MADLIBS</li></a>
+			<a href="calc.html" id="navcalc"><li>CALCULATOR</li></a>
+			<a href="store.html" id="navstore"><li>STORE FORM</li></a>
+			<a href="quiz.html" id="navquiz"><li>QUIZ TIME</li></a>
+		</ul>
+	</nav>
+</header>
+<div class="sidetitle"><p id="sidetitletext">ASSIGNMENT 6</p></div>
+<h1 class="maintitle", id="calctitle">SIMPLE PHP CALCULATOR</h1>
+<div class="formcontainer">
+	<form action="add.php" method="post">
+		<h2 class="subtitle">~calculator program~</h2>
+		Enter a number:<br><input type="text" name="num1"><br>
+		Enter another number:<br><input type="text" name="num2"><br>
+		Select an operator:<br><select name="operator" size="4"><br>
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+		</select>
+	<br><input type="submit" value="Calculate">
+</form>
+</div>
+</body>
+</html>
